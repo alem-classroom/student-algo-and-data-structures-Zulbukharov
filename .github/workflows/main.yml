@@ -12,5 +12,5 @@ jobs:
         id: hello2
         with:
           grade: ${{ secrets.GRADE }}
-          url: 'alem-classroom/test-algo-1'
+          url: 'alem-classroom/test-algo-and-data-structures'
           token: ${{ secrets.AUTH_TOKEN }}
