@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Autograde action
-        uses: alem-classroom/python-autograde@v1
+        uses: alem-classroom/docker-autograde@v1
         id: hello2
         with:
           grade: ${{ secrets.GRADE }}
