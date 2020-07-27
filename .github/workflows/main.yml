@@ -14,3 +14,4 @@ jobs:
           grade: ${{ secrets.GRADE }}
           url: 'alem-classroom/test-algo-and-data-structures'
           token: ${{ secrets.AUTH_TOKEN }}
+
